@@ -93,6 +93,7 @@
             <p><strong>Off by default.</strong> Nothing is sent until you tap Accept. You can change your mind at any time in Settings → Anonymous statistics; switching it off stops all sending immediately.</p>
             <p><strong>What is sent</strong>, if you accept: technical events (device model, iOS version, app language, and country derived from your IP address by the provider). Purchases are reported with their price and currency for revenue statistics.</p>
             <p><strong>What is never sent</strong>: anything that identifies you personally. No advertising identifier (IDFA) is used and the app never asks for tracking permission, because it does not track you across other apps or websites.</p>
+            <p><strong>Correction in version 1.8</strong>: in versions before 1.8, a few basic technical events (first launch, session start) and crash reports could be sent before you answered the statistics question. Version 1.8 fixes this: Firebase is not started at all until you tap Accept, and nothing is sent if you decline or do not answer.</p>
             <p><strong>Provider</strong>: these statistics are processed by <strong>Google Firebase Analytics</strong> (and Firebase Crashlytics for anonymous crash reports), on Google's servers, under <a href="https://firebase.google.com/support/privacy">Google's privacy terms</a>. Data is used only for aggregated statistics about Total Time Meet and is not shared with advertisers.</p>
         </div>
 
@@ -127,7 +128,7 @@
         </div>
 
         <div class="footer">
-            <p>Last updated: September 2026</p>
+            <p>Last updated: October 2026</p>
             <p>&copy; 2026 Total Time Meet. All rights reserved.</p>
             <br>
             <p><a href="index.html">← Back to Support</a></p>
